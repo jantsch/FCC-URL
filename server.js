@@ -4,7 +4,7 @@ var MongoClient = require('mongodb').MongoClient
 var assert = require('assert');
 
 // Connection URL 
-var url = 'mongodb://localhost:27017/fcc_url';
+var url = 'mongodb://fcc-owner:fcc-url@ds021289.mlab.com:21289/heroku_fzzldj58'//'mongodb://localhost:27017/fcc_url';
 
  
 app.get('/favicon.ico', function(req, res) {
